@@ -1,0 +1,32 @@
+div.select_menu {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  position: relative;
+  background: #fff;
+  text-align: left;
+}
+
+div.select_menu div.menu_selected {
+  display: block;
+  width: 100%;
+  border: 1px solid #999;
+  text-indent: 5px;
+}
+
+div.select_menu div.menu_select {
+  height: 200px;
+  width: 200px;
+  overflow-y: scroll;
+  background: #fff;
+  border: 1px solid #999;
+  position: absolute;
+}
+
+div.select_menu div.menu_select div.menu_option {
+  padding-left: 5px;
+}
+
+div.select_menu div.menu_select div.menu_option:hover {
+  background: #ccc;
+}
